@@ -4,15 +4,6 @@ body{
     padding: 0;
     text-align: center;
 }
-.navbar{
-    height: 30px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(94, 140, 241);
-    color: white;
-}
 .home{
     border: solid 2px black;
     box-shadow: 2px 2px 2px black;
@@ -56,11 +47,7 @@ h1{
 button[disabled]{
     border: 1px solid black;
 }
-.nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .reset{
     height: 30px;
     font-size: 18px;
