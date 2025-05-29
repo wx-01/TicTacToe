@@ -1,0 +1,89 @@
+body{
+    background-color: #0b2170;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(94, 140, 241);
+    color: white;
+}
+.home{
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px black;
+    display: none;
+}
+h1{
+    color: white;
+}
+.msg-container{
+    height: 15px;
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: solid;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+
+}
+.box{
+    border: solid 2px black;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px black;
+    font-size: 8vmin;
+    color: black;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgb(255, 255, 255)
+}
+button[disabled]{
+    border: 1px solid black;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reset{
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px black;
+
+}
+.back{
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        height: 50vh;
+    }
+    .navbar{
+        contain: strict;
+    }
+    
+}
